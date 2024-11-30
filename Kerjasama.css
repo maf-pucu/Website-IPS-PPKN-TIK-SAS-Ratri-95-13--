@@ -1,0 +1,127 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(v.jpg)
+}
+
+/* Header Styles */
+.header {
+    margin: 2px 0px -7px -8px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Bar Styles */
+.nav-container {
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    background: rgb(213, 206, 158);
+    padding: 0;
+    margin: 3px 2px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    height: 65px;
+}
+
+.nav-list li {
+    display: inline-block;
+    position: relative;
+    padding: 19px 30px;
+    font-size: 22px;
+    height: 100%;
+    width: auto;
+}
+
+.nav-list a {
+    text-align: center;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    font-family: 'baspi';
+}
+
+.nav-list a:hover {
+    background-color: rgb(206, 195, 111);
+    background-color: aliceblue;
+}
+
+/* Dropdown Styles */
+.nav-list li ul.dropdown {
+    background: rgb(179, 151, 108);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.nav-list li:hover ul.dropdown {
+    display: block;
+}
+
+.nav-list li ul.dropdown li {
+    padding: 10px;
+}
+
+/* Content Area Styles */
+.column {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.column-side {
+    width: 250px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.column-middle {
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+/* Centered Text Utility */
+.center {
+    text-align: center;
+}
+
+.isi {
+    font-family: 'baspi';
+    margin: 5px;
+    padding: 15px;
+}
+
+.fotoP {
+    border: 10px solid rgb(23, 101, 57);
+    border-radius: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.Keterkaitan-SDGs-dan-Kerjasama-Internasional {
+    font-family: 'baspi';
+    margin: 5px;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: 'baspi';
+    src: url(BaksoSapi.otf);
+}
